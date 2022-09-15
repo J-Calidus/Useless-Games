@@ -1,0 +1,283 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel = "stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">              
+    <link rel="stylesheet" href="design.css">
+
+    <title>The Useless Game Site</title>
+</head>
+<body>
+    
+
+    <script type="text/javascript">
+        document.body.style.backgroundColor = "bronze";
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="container-35">
+        
+        <h2> Ω Not Really Part of Project</h2>
+
+        <div class="flex-box-bean">
+            <div>
+                <button class="btn btn-danger" onclick="generateBean()">Generate BeanBoy</button>
+            </div>  
+        </div>
+
+        <div class="flex-box-container-bean" id="flex-bean">
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="container-1">
+
+        <h2>Alpha ɑ: Your Age in Days</h2>
+
+        <div class="flex-box-container1">
+
+            <div>
+                <button class="btn btn-primary" onclick="urAge()">Start</button>
+            </div>
+
+            <div>
+                <button class="btn btn-danger" onclick="reset()">Reset</button>
+            </div>
+
+            <div class="flex-box-container-1">
+                <div id="flex-box-result"></div>
+      
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+  
+    <div class="container-2">
+        <h2>Beta β: Greek Phalanx Generator</h2>
+
+        <button class="btn btn-success" id="call-warriors" onclick="LeonidasAndAchilles()">Generate Hoplites</button>
+        <button class="btn btn-warning" id="reset" onclick="endBattle()">Get rid of troops cuz ur BROKE</button>
+       
+        <div class="flex-box-container-2" id="flex-greece">
+
+        </div>
+   </div>
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <div class="container-3">
+        <h2>Gamma ɣ: Shield Sword and Bow </h2>
+
+        <div class="flex-box-sbs" id="flex-box-sbs-div">
+            <img id="shield" onclick="sbsGame(this)" src="https://images-na.ssl-images-amazon.com/images/I/81A17qKXv2L._AC_UL1500_.jpg" height=150 width=150 alt="">
+            <img id="bow" onclick="sbsGame(this)" src="https://vignette.wikia.nocookie.net/supernaturalfanon/images/0/02/Michaelsword.jpg/revision/latest?cb=20190129203205" height=150 width=150 alt="">
+            <img id="sword" onclick="sbsGame(this)" src="https://greekgodsapollo.weebly.com/uploads/4/1/8/1/41812991/5481228.jpg?270" height=150 width=150 alt="">
+        </div>
+
+        <div class="jaden-only" id="jaden-only-div">
+            <img id="theon" onclick="sbsGame(this)" src="https://image.freepik.com/free-vector/golden-round-greek-frame-design_108964-24.jpg" height=150 width=150 alt="">
+        </div>
+
+        <div class="flex-box-container-bad">
+            <button class="btn btn-link" id="Nope" onclick="tryAgain()">Oh you got the password wrong? That's too bad</button>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+    <div class="container-4">
+        <h2 id="Change colour">Delta δ: Button Colours</h2>
+
+        <div class="flex-box-pick-colour">
+            <form action="">
+
+                <select name="backdrop" id="background" onchange="buttonColorChange(this)">
+                   
+                    <option value="random">Random</option>
+                    <option value="red">Red</option>
+                    <option value="green">Green</option>
+                    <option value="blue">Blue</option>
+                    <option value="yellow">Yellow</option>
+                    <option value="reset">Reset</option>
+                
+                </select>
+
+            </form>
+
+            <button class="btn btn-primary">Blew</button>
+            <button class="btn btn-danger">Wread</button>
+            <button class="btn btn-warning">Iello</button>
+            <button class="btn btn-success">Gereann</button>
+
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="container-5">
+
+
+        <h2>Epsilon ε: $ Blackjack $</h2>
+        <h3><span id="blackjack-result">Play</span></h3>
+
+
+        <div class="flex-row-1-bj">
+            <div id="ur-box">
+                <h2>You: <span id="ur-bj-result">0</span></h2>
+            </div>
+
+            <div id="dealer-box">
+                <h2>Dealer: <span id="dealer-bj-result">0</span></h2>
+            </div>
+        </div>
+
+
+        <div class="flex-row-2-bj">
+            <div>
+                <button class="btn-lg btn-primary mr-2" id="bj-hit-btn">Hit</button>
+                <button class="btn-lg btn-warning mr-2" id="bj-stand-btn">Stand</button>
+                <button class="btn-lg btn-danger mr-2" id="bj-deal-btn">Deal</button>
+            </div>
+        </div>
+
+
+        <div class="flex-row-3-bj">
+            <table>
+                <tr>
+                    <th>Wins</th>
+                    <th>Losses</th>
+                    <th>Draws</th>
+                </tr>
+
+                <tr>
+                    <td><span id="wins">0</span></td>
+                    <td><span id="losses">0</span></td>
+                    <td><span id="draws">0</span></td>
+                </tr>
+            </table>
+
+
+        </div>
+
+        <div class="chips-container-div">
+            <h3><span id="title">Chips: </span><span id="Chips-counter">0</span></h3>
+        </div>
+
+        <div class = "flex-row-4-bj">
+            <button class="btn btn-link" id="reset-score" onclick="resetScore()">Reset Score</button>
+        </div>
+
+    </div>
+  
+
+
+    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+    <script src="code.js"></script>
+
+</body>
+</html>

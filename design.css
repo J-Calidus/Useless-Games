@@ -1,0 +1,253 @@
+
+/* Challenge dunno Ω: Create a Bean */
+.container-35 {
+    border: 3px solid rgb(252, 25, 0);  
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.flex-box-bean {
+    display: flex;
+    border: 1px solid red;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.flex-box-container-bean {
+    display: flex;
+    flex-wrap: wrap;
+    border: 3px solid pink;
+    padding: 10px;
+    justify-content: center;
+}
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Challenge Alpha ɑ: Age in dais */
+.container-1 {
+    border: 5px solid orange;  
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.flex-box-container-1, .flex-box-container-2 {
+    display: flex;
+    border: 5px solid red;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+  
+.flex-box-container-1 div {
+    display: flex;
+    padding: 10px;
+    border: 5px solid darkmagenta;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+/* Challenge Beta β: SPARTAAAAAAAA and GREEEEEEEEECE vs TROOOOOOOOOOY and PERSIAAAAAAAA */
+.container-2 {
+    border: 5px solid blue;  
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+  
+.flex-box-container-2 {
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid pink;
+    justify-content: center;
+}
+  
+.flex-box-container-2 img {
+    margin: 5 auto;
+    box-shadow: 0px 10px 50px gold;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Challenge Gamma ɣ: Sword Shield Bow ||| Rock=Shield  Paper=Bow  Scissors=Sword  Ultimate Weapon=Theon(Gods, Goddesses) */
+.container-3 {
+    border: 5px solid rgb(10, 234, 215);  
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+  
+.flex-box-sbs, .flex-box-container-bad {
+    display: flex;
+    border: 5px solid green;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+  
+.flex-box-sbs img:hover {
+    box-shadow: 0px 10px 50px rgb(153, 29, 147);
+}
+
+.flex-box-sbs img{
+    border: 5px solid darkgoldenrod;
+}
+  
+.jaden-only img:hover {
+    box-shadow: 0px 10px 50px rgb(255, 0, 162);
+}
+
+.jaden-only img {
+    border: 5px solid darkgoldenrod;
+
+}
+
+.jaden-only {
+    border: 5px solid green;
+}
+
+
+
+
+
+
+
+
+
+
+/* Challenge Delta δ: Change Button Colours */
+.container-4 {
+    border: 5px solid rgb(255, 0, 221);  
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.flex-box-pick-colour {
+    display: flex;
+    border: 10px solid rgb(163, 35, 169);
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Challenge Epsilon ε: Blackjack */
+.container-5 {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    border: 5px solid saddlebrown;
+}
+
+.flex-row-1-bj {
+    display: flex;
+    padding: 3px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: 3px solid rgba(160, 199, 51, 0.851);
+    text-align: center;
+
+}
+
+.flex-row-1-bj div {
+    border: 3px solid peachpuff;
+    padding: 10px;
+    height: 350px;
+    text-align: center;
+    flex: 1;
+}
+
+.flex-row-1-bj img {
+    width: 25%;
+    padding: 10px;
+}
+
+.flex-row-1-bj, .flex-row-2-bj {
+    background: url('https://cdn.wallpapersafari.com/94/9/3Lc7BI.jpg') center;
+}
+
+.flex-row-2-bj, .flex-row-3-bj {
+    display: flex;
+    padding: 3px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 3px solid rgb(255, 255, 255);
+    text-align: center;
+}
+
+.flex-row-3-bj table, th, td {
+    padding: 10px;
+    border: 3px solid olive;
+}
+
+.chips-container-div {
+    padding: 5px;
+    border: 5px solid olive;
+    background: url('https://casinoalto.com/wp-content/uploads/2018/08/Promoci%C3%B3n-Golden-Chips-William-Hill.jpg') center;
+    height: 35%;
+}
+
+.flex-row-4-bj {
+    border: 5px solid peachpuff;
+    padding: 10px;
+}
